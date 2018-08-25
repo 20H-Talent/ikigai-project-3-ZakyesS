@@ -1,0 +1,62 @@
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+.wrapper {
+    display: flex;
+    padding: 0% 8%;
+    flex-direction: column;
+    /* border-bottom: 5px black solid; */
+    align-items: center;
+}
+.header-title {
+    background-color: #2d3945;
+    color: white;
+    margin: 0; 
+    padding: 13px 0;
+    font-size: 0.6em;
+}
+.header-info h2 {
+    font-size: 1.1em;
+    color: #2d3945;
+}
+.header-info p {
+    font-size: 0.80rem;
+    text-align: center;
+    flex-basis: 1%;
+    margin-top: 0;
+}
+.header-info {
+    width: 88%;
+    margin-left: 6%;
+    padding: 0;
+    border-bottom: 5px solid #2d3945;
+}
+form {
+    width: 105%;
+    /* margin-left: 1%; */
+    border-top: 3px solid #2d3945;
+    margin-top: 2%;
+}
+form fieldset {
+    border: none;
+    padding: 0;
+    margin-top: 10%;
+}
+fieldset input {    
+    margin: 3% 0 15px 0;
+    height: auto;
+    width: 99%;
+    padding: 5% 0;
+}
+input::placeholder {
+    text-align: right;
+    padding-right: 5%;
+}
+.legend {
+    margin-bottom: 8%;
+    font-size: 1.2em;
+    color: #2d3945;
+    font-weight: bold;
+} 
